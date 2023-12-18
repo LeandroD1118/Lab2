@@ -19,9 +19,9 @@ public class Program
         Console.WriteLine($"{Environment.NewLine}" +
             $"MQTTnet ConsoleApp - A The Things Network V3 C# App {Environment.NewLine}");
 
-        var TTN_APP_ID = "1118";
-        var TTN_API_KEY = "NNSXS.USO6N6UHSTWIYBG42IYHGS4MRO6BDRLUF7AQYHY.M5YZU2P6EUJD7CX4RQW2ZZUTR4DNZNEGJVXCM3JLDTMMMPZUXXKQ";
-        var TTN_REGION = "eu1";
+        var TTN_APP_ID = "";
+        var TTN_API_KEY = "";
+        var TTN_REGION = "";
         var TTN_BROKER = $"{TTN_REGION}.cloud.thethings.network";
         var TOPIC = "v3/+/devices/+/up";
 
